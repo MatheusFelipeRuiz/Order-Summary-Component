@@ -325,33 +325,46 @@ body {
   background-repeat: no-repeat; }
 
 .card {
-  width: 23em; }
-  .card .card-title {
+  width: 23em;
+  border-radius: 30px;
+  overflow: hidden; }
+  .card .card-body .card-title {
     font-weight: 900;
     text-align: center; }
-  .card .card-text {
+  .card .card-body .card-text {
     font-weight: 400;
     color: #7280a7;
     text-align: center; }
-  .card .container .row {
+  .card .contract .row {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 60px; }
-    .card .container .row div {
+    .card .contract .row div {
       padding: 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center; }
-      .card .container .row div a {
+      .card .contract .row div a {
         width: 80%;
         height: 50px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        text-decoration: none; }
-        .card .container .row div a:hover {
-          color: #3425da; }
+        text-decoration: none;
+        color: #3425da; }
+        .card .contract .row div a:hover {
+          color: #6254fc; }
+  .card .buttons .row {
+    padding: 20px; }
+    .card .buttons .row div a {
+      width: 100%; }
+    .card .buttons .row div .btn-primary {
+      box-shadow: 2px 2px 10px black;
+      background-color: #3425da; }
+      .card .buttons .row div .btn-primary:hover {
+        color: #fff;
+        background-color: #6254fc; }
 
 /*# sourceMappingURL=style.css.map */

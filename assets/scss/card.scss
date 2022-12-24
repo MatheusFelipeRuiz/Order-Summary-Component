@@ -1,17 +1,21 @@
 .card {
     width: 23em;
+    border-radius: 30px;
+    overflow: hidden;
     // # Body Card
-    .card-title {
-        font-weight: 900;
-        text-align: center;
-    }
-    .card-text {
-        font-weight: 400;
-        color: $cinza-escuro;
-        text-align: center;
+    .card-body {
+        .card-title {
+            font-weight: 900;
+            text-align: center;
+        }
+        .card-text {
+            font-weight: 400;
+            color: $cinza-escuro;
+            text-align: center;
+        }
     }
     // # Planos de Contrato
-    .container {
+    .contract{
         .row {
             display: flex;
             justify-content: center;
@@ -30,8 +34,27 @@
                     justify-content: flex-start;
                     align-items: center;
                     text-decoration: none;
+                    color: $azul-escuro;
                     &:hover {
-                        color: $azul-escuro;     
+                        color: $azul-claro;     
+                    }
+                }
+            }
+        }
+    }
+    .buttons {
+        .row {
+            padding: 20px;
+            div {
+                a {
+                    width: 100%;
+                }
+                .btn-primary {
+                    box-shadow: 2px 2px 10px black;
+                    background-color: $azul-escuro;
+                    &:hover {
+                        color: $branco;
+                        background-color: $azul-claro;
                     }
                 }
             }
