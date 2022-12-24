@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
