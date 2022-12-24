@@ -318,8 +318,19 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
+  background-color: #f5f7ff;
   background-image: url("../images/pattern-background-desktop.svg");
   background-size: 100%;
   background-repeat: no-repeat; }
+
+.card {
+  width: 23em; }
+  .card .card-title {
+    font-weight: 900;
+    text-align: center; }
+  .card .card-text {
+    font-weight: 400;
+    color: #808080;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
