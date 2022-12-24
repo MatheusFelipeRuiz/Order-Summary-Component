@@ -307,7 +307,8 @@ template {
 * {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  text-decoration: none;
+  font-size: 16px  !important;
   font-family: 'Red Hat Display', sans-serif;
   box-sizing: border-box; }
 
@@ -330,7 +331,27 @@ body {
     text-align: center; }
   .card .card-text {
     font-weight: 400;
-    color: #808080;
+    color: #7280a7;
     text-align: center; }
+  .card .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px; }
+    .card .container .row div {
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; }
+      .card .container .row div a {
+        width: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: none; }
+        .card .container .row div a:hover {
+          color: #3425da; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 .card {
     width: 23em;
+    // # Body Card
     .card-title {
         font-weight: 900;
         text-align: center;
@@ -9,4 +10,33 @@
         color: $cinza-escuro;
         text-align: center;
     }
+    // # Planos de Contrato
+    .container {
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 60px;
+            div {
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                a {
+                    width: 80%;
+                    height: 50px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    text-decoration: none;
+                    &:hover {
+                        color: $azul-escuro;     
+                    }
+                }
+            }
+        }
+    }
+
+    
 }
