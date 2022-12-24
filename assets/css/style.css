@@ -324,6 +324,18 @@ body {
   background-size: 100%;
   background-repeat: no-repeat; }
 
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center center; }
+
+  .card .contract .row {
+    width: 100%;
+    justify-content: space-around; }
+    .card .contract .row div {
+      width: 33%; }
+  .card .buttons {
+    margin-top: 0.6em; } }
 .card {
   width: 23em;
   border-radius: 30px;
