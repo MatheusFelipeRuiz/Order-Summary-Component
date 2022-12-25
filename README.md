@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]('./assets/images/print-component.png')
+![](./assets/images/print-component.png)
 
 
 ### Links
