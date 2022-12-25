@@ -1,9 +1,13 @@
 @media (max-width: 768px) {
     body {
+        background-image: none;
         background-size: cover;
         background-position: center center;
+        position: relative;
+        height: 10vh;
     }
     .card {
+        top: 80vh;
         .contract {
             .row {
                 width: 100%;
@@ -16,5 +20,16 @@
         .buttons {
             margin-top: 0.6em;
         }
+    }
+}
+
+@media (max-height: 600px) and (orientation:landscape) {
+    body {
+        padding: 2em;
+    }
+    .card {
+        margin-left: 4em;
+        margin-bottom: 2em;
+        width: 10em;
     }
 }
