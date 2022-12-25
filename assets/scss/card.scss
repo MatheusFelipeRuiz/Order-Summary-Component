@@ -4,10 +4,6 @@
     overflow: hidden;
     // # Body Card
     .card-body {
-        .card-title {
-            font-weight: 900;
-            text-align: center;
-        }
         .card-text {
             font-weight: 400;
             color: $cinza-escuro;
@@ -40,6 +36,7 @@
                     }
                 }
             }
+
         }
     }
     .buttons {
